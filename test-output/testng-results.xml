@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-29T05:21:39 PDT" name="Suite" finished-at="2024-07-29T05:22:00 PDT" duration-ms="21448">
+    <groups>
+    </groups>
+    <test started-at="2024-07-29T05:21:39 PDT" name="Test" finished-at="2024-07-29T05:22:00 PDT" duration-ms="21448">
+      <class name="testCases_Todo.TodoRegistration">
+        <test-method is-config="true" signature="browserLauncher()[pri:0, instance:testCases_Todo.TodoRegistration@7c137fd5]" started-at="2024-07-29T05:21:31 PDT" name="browserLauncher" finished-at="2024-07-29T05:21:39 PDT" duration-ms="7580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLauncher -->
+        <test-method signature="OpenGoogle()[pri:0, instance:testCases_Todo.TodoRegistration@7c137fd5]" started-at="2024-07-29T05:21:39 PDT" name="OpenGoogle" finished-at="2024-07-29T05:21:39 PDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogle -->
+        <test-method signature="emailSignup(java.lang.String)[pri:1, instance:testCases_Todo.TodoRegistration@7c137fd5]" started-at="2024-07-29T05:21:39 PDT" name="emailSignup" data-provider="EmailSignup" finished-at="2024-07-29T05:21:46 PDT" duration-ms="7206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kingstonw2,kingston2@gmail.com,Edberg@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailSignup -->
+        <test-method signature="emailDuplicateSignup(java.lang.String)[pri:2, instance:testCases_Todo.TodoRegistration@7c137fd5]" started-at="2024-07-29T05:21:46 PDT" name="emailDuplicateSignup" data-provider="EmailSignup" finished-at="2024-07-29T05:21:52 PDT" duration-ms="5197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kingstonw2,kingston2@gmail.com,Edberg@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailDuplicateSignup -->
+        <test-method signature="Login(java.lang.String)[pri:3, instance:testCases_Todo.TodoRegistration@7c137fd5]" started-at="2024-07-29T05:21:52 PDT" name="Login" data-provider="EmailLogin" finished-at="2024-07-29T05:22:00 PDT" duration-ms="8871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kingston2@gmail.com,Edberg@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- testCases_Todo.TodoRegistration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
